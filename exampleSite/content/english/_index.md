@@ -1,6 +1,4 @@
 ---
-title: "Home"
-subtitle: ""
 description: "This is meta description"
 draft: false
 ---
