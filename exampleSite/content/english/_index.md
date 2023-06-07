@@ -1,4 +1,10 @@
 ---
+title: "Home"
+subtitle: ""
+# meta description
+description: "This is meta description"
+draft: false
+---
 ####################### Banner #########################
 banner:
   title : "Let us solve your critical website <br> development challenges"
