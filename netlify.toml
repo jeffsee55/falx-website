@@ -1,6 +1,6 @@
 [build]
 publish = "exampleSite/public"
-command = "cd exampleSite && yarn tinacms build &&  hugo --gc --themesDir ../.."
+command = "cd exampleSite && npm run tinacms build &&  hugo --gc --themesDir ../.."
 
 [build.environment]
 HUGO_VERSION = "0.74.3"
