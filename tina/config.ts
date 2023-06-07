@@ -389,7 +389,7 @@ export default defineConfig({
         format: "toml",
         label: "Variables & Plugins",
         name: "variables___plugins",
-        path: ".",
+        path: "/",
         frontmatterFormat: "yaml",
         match: {
           include: "config",
