@@ -26,7 +26,7 @@ export default defineConfig({
         format: "md",
         label: "Homepage (en)",
         name: "homepage__en_",
-        path: "exampleSite/content/english",
+        path: "exampleSite/content/english/",
         frontmatterFormat: "yaml",
         ui: {
           allowedActions: {
