@@ -314,31 +314,6 @@ export default defineConfig({
           },
         ],
       },
-      {
-        format: "toml",
-        label: "Menu (de)",
-        name: "menu__de_",
-        path: "exampleSite/config/_default",
-        frontmatterFormat: "yaml",
-        match: {
-          include: "menus.de",
-        },
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
-        fields: [
-          {
-            name: "dummy",
-            label: "Dummy field",
-            type: "string",
-            description:
-              "This is a dummy field, please replace it with the fields you want to edit. See https://tina.io/docs/schema/ for more info",
-          },
-        ],
-      },
     ],
   },
 });
