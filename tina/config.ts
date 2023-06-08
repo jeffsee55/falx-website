@@ -49,59 +49,9 @@ export default defineConfig({
       },
       {
         format: "md",
-        label: "Homepage (de)",
-        name: "homepage__de_",
-        path: "exampleSite/content/deutsch",
-        frontmatterFormat: "yaml",
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
-        match: {
-          include: "_index",
-        },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-        ],
-      },
-      {
-        format: "md",
         label: "Blog Page (en)",
         name: "blog_page__en_",
         path: "exampleSite/content/english/blog",
-        frontmatterFormat: "yaml",
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
-        match: {
-          include: "_index",
-        },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-        ],
-      },
-      {
-        format: "md",
-        label: "Blog Page (de)",
-        name: "blog_page__de_",
-        path: "exampleSite/content/deutsch/blog",
         frontmatterFormat: "yaml",
         ui: {
           allowedActions: {
@@ -145,55 +95,9 @@ export default defineConfig({
       },
       {
         format: "md",
-        label: "Blog Post (de)",
-        name: "blog_post__de_",
-        path: "exampleSite/content/deutsch/blog",
-        frontmatterFormat: "yaml",
-        match: {
-          include: "**/*",
-          exclude: "_index",
-        },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-          ...postFields(),
-        ],
-      },
-      {
-        format: "md",
         label: "Contact (en)",
         name: "contact__en_",
         path: "exampleSite/content/english/contact",
-        frontmatterFormat: "yaml",
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
-        match: {
-          include: "_index",
-        },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-        ],
-      },
-      {
-        format: "md",
-        label: "Contact (de)",
-        name: "contact__de_",
-        path: "exampleSite/content/deutsch/contact",
         frontmatterFormat: "yaml",
         ui: {
           allowedActions: {
@@ -241,59 +145,9 @@ export default defineConfig({
       },
       {
         format: "md",
-        label: "Pricing (de)",
-        name: "pricing__de_",
-        path: "exampleSite/content/deutsch/pricing",
-        frontmatterFormat: "yaml",
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
-        match: {
-          include: "_index",
-        },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-        ],
-      },
-      {
-        format: "md",
         label: "FAQ (en)",
         name: "faq__en_",
         path: "exampleSite/content/english/faq",
-        frontmatterFormat: "yaml",
-        ui: {
-          allowedActions: {
-            create: false,
-            delete: false,
-          },
-        },
-        match: {
-          include: "_index",
-        },
-        fields: [
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-        ],
-      },
-      {
-        format: "md",
-        label: "FAQ (de)",
-        name: "faq__de_",
-        path: "exampleSite/content/deutsch/faq",
         frontmatterFormat: "yaml",
         ui: {
           allowedActions: {
@@ -389,7 +243,7 @@ export default defineConfig({
         format: "toml",
         label: "Variables & Plugins",
         name: "variables___plugins",
-        path: "/",
+        path: ".",
         frontmatterFormat: "yaml",
         match: {
           include: "config",
